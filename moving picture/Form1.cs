@@ -21,5 +21,10 @@ namespace moving_picture
         {
             pictureBox1.Location = new Point(pictureBox1.Location.X + 10, pictureBox1.Location.Y);
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Location = new Point(pictureBox1.Location.X - 10, pictureBox1.Location.Y);
+        }
     }
 }
